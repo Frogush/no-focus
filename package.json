@@ -1,0 +1,28 @@
+{
+  "name": "no-focus",
+  "version": "1.0.0",
+  "description": "A landing page about concentration struggles in the modern world. Built with pure HTML/CSS/JS, featuring responsive design and theme switching.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "stylelint \"**/*.{css,scss}\"",
+    "lint:css:fix": "stylelint \"**/*.{css,scss}\" --fix",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frogush/no-focus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frogush/no-focus/issues"
+  },
+  "homepage": "https://github.com/Frogush/no-focus#readme",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "stylelint": "^16.23.1"
+  }
+}

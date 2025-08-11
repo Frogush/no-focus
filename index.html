@@ -6,13 +6,39 @@
     <title>Сложно сосредоточиться</title>
     <link rel="stylesheet" href="./fonts/fonts.css"> <!-- Шрифты -->
     <link rel="stylesheet" href="./styles/variables.css"> <!-- Переменные -->
-    <link rel="stylesheet" href="./styles/globals.css"> <!-- Глобальные настройки -->
+    <link rel="stylesheet" href="./styles/global.css"> <!-- Глобальные настройки -->
     <link rel="stylesheet" href="./styles/style.css"> <!-- CSS Классы -->
     <link rel="stylesheet" href="./styles/dark.css"> <!-- Тёмная цветовая палитра -->
     <link rel="stylesheet" href="./styles/light.css"> <!-- Светлая цветовая палитра -->
     <script src="./scripts/script.js"></script> <!-- Скрипт для управления цветовой палитры -->
 </head>
-<body>
-    
+<body class="page">
+    <header class="header decoration-zone">
+        <span class="header__decoration-icon" aria-hidden="true">REC</span>
+        <nav class="header__theme-menu">
+            <ul class="header__theme-menu-list">
+                <li class="header__theme-menu-item">
+                    <button class="header__theme-menu-button header__theme-menu-button_type_light">
+                    День
+                    </button>
+                </li>
+                <li class="header__theme-menu-item">
+                    <button class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto" disabled>
+                    Авто
+                    </button>
+                </li>
+                <li class="header__theme-menu-item">
+                    <button class="header__theme-menu-button header__theme-menu-button_type_dark">
+                    Неон
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="header__title accent-title accent-box-shadow-title accent-bold">no focus</h1>
+        <div class="header__description-container accent-background-clr">
+            <p class="header__description accent-bold">Что делать, когда не можешь делать ничего</p>
+            <p class="header__description accent-bold">Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
+        </div>
+    </header>
 </body>
 </html>

@@ -10,7 +10,6 @@
     --accent-boxshadow-clr: #FF0070; /* Цвет тени для заголовка, ссылок */
     --accent-background-clr: #FF0070; /* Цвет заднего фона у отдельных заголовков страницы */
     --accent-section-title-clr: #FF0070; /* Цвет заголовков секций */
-    --accent-article-title-clr: #000028; /* Цвет заголовков статей */
     --accent-gallery-title-clr: #000028; /* Цвет заголовка галереи */
 }
 
@@ -27,7 +26,6 @@
         --accent-boxshadow-clr: #FF0070; /* Цвет тени для заголовка, ссылок */
         --accent-background-clr: #FF0070; /* Цвет заднего фона у отдельных заголовков страницы */
         --accent-section-title-clr: #FF0070; /* Цвет заголовков секций */
-        --accent-article-title-clr: #000028; /* Цвет заголовков статей */
         --accent-gallery-title-clr: #000028; /* Цвет заголовка галереи */
     }
 }

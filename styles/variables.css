@@ -1,0 +1,18 @@
+:root {
+    --background-clr: #FFC2E6; /* Базовый цвет фона сайта */
+    --background-img: url(../images/cover-image-light.png); /* Изображение на фоне */
+    --main-font: "IBM Plex Mono"; /* Основной шрифт страницы */
+    --main-clr: #353430; /* Основной цвет текста страницы */
+    --header-decoration-icon-clr: transparent; /* Цвет кнопки REC в шапке сайта */
+    --decorative-angle-clr: #353430; /* Цвет декоративных уголков для шапки и подвала */
+    --accent-heading-fs-mobile: 116px; /* Размер шрифта на мобильных устройствах */
+    --accent-heading-fs-desktop: 157px; /* Размер шрифта на десктопах */
+    --button-clr: #353430; /* Цвет кнопки */
+    --button-hover-clr: #32312d66; /* Цвет кнопки при наведении */
+    --main-title-clr: #FFC2E6; /* Цвет заголовка страницы (по умолчанию, без фокуса) */
+    --accent-boxshadow-clr: #FF8DCB; /* Цвет тени для заголовка, ссылок */
+    --accent-background-clr: #FF8DCB; /* Цвет заднего фона у отдельных заголовков страницы */
+    --accent-section-title-clr: #353430; /* Цвет заголовков секций */
+    --accent-article-title-clr: #353430; /* Цвет заголовков статей */
+    --accent-gallery-title-clr: #353430; /* Цвет заголовка галереи */
+}

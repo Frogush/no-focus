@@ -1,0 +1,189 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    inline-size: 100%;
+    color: var(--main-text-clr);
+    background: var(--background-img);
+    background-color: var(--background-clr);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    font-family: var(--main-font), sans-serif;
+    font-size: 18px;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    .page {
+        gap: 60px;
+    }
+}
+
+.decoration-zone {
+    position: absolute;
+}
+
+.decoration-zone::before {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    block-size: 25px;
+    inline-size: 25px;
+    border-block-end: 1px solid var(--decorative-angle-clr, #353430);
+    border-inline-start: 1px solid var(--decorative-angle-clr, #353430);
+    content: '';
+}
+
+.decoration-zone::after {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    block-size: 25px;
+    inline-size: 25px;
+    border-block-start: 1px solid var(--decorative-angle-clr, #353430);
+    border-inline-end: 1px solid var(--decorative-angle-clr, #353430);
+    content: '';
+}
+
+@media (min-width: 768px) {
+    .decoration-zone::before {
+        inset-block-end: 20px;
+        inset-inline-start: 20px;
+    }
+
+    .decoration-zone::after {
+        inset-block-start: 20px;
+        inset-inline-end: 20px;
+    }
+}
+
+/* ACCENT'S */
+
+.accent-box-shadow-title {
+    line-height: 83%;
+    color: var(--main-title-clr, #FFC2E6);
+    text-shadow: 4px 4px 0 var(--accent-boxshadow-clr, #FF8DCB);
+    font-size: var(--accent-heading-fs-mobile, 116px);
+}
+
+@media (min-width: 768px) {
+    .accent-box-shadow-title {
+        font-size: var(--accent-heading-fs-desktop, 157px);
+    }
+}
+
+.accent-bold {
+    font-weight: bold;
+}
+
+.accent-background-clr {
+    background-color: var(--accent-background-clr, #FF8DCB);
+}
+
+/* HEADER */
+
+.header {
+    position: relative;
+    display: grid;
+    padding: 10px;
+    block-size: 100vh;
+    inline-size: 100%;
+    grid-template-rows: auto max-content auto;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 20px;
+    }
+}
+
+.header__decoration-icon {
+    position: absolute;
+    display: flex;
+    line-height: 25px;
+    inset-block-start: 10px;
+    inset-inline-end: 20px;
+    color: var(--header-decoration-icon-clr, transparent);
+    gap: 10px;
+}
+
+.header__decoration-icon::after {
+    align-self: center;
+    block-size: 7px;
+    inline-size: 7px;
+    border-radius: 50%;
+    background-color: var(--header-decoration-icon-clr, transparent);
+    box-shadow: 0 0 5px 4px var(--header-decoration-icon-clr, transparent);
+    content: '';
+}
+
+@media (min-width: 768px) {
+    .header__decoration-icon {
+        inset-block-start: 20px;
+        inset-inline-end: 30px;
+    }
+}
+
+.header__theme-menu {
+    align-self: center;
+}
+
+@media (min-width: 1024px) {
+    .header__theme-menu {
+        align-self: flex-start;
+    }
+}
+
+.header__theme-menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-self: flex-end;
+    gap: 10px;
+}
+
+@media (min-width: 1024px) {
+    .header__theme-menu-list {
+        flex-direction: row;
+        justify-self: center;
+    }
+}
+
+.header__theme-menu-button {
+    block-size: 26px;
+    inline-size: 70px;
+    border: none;
+    color: var(--button-clr, #353430);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header__theme-menu-button_active {
+    border: 1px solid currentColor;
+}
+
+.header__title {
+
+    justify-self: flex-start;
+}
+
+@media (min-width: 768px) {
+    .header__title {
+        margin-inline-start: -20px;
+    }
+}
+
+.header__description-container {
+    align-self: center;
+    line-height: 23.4px;
+    inline-size: 100%;
+    color: var(--accent-header-description-clr, #353430);
+}
+
+@media (min-width: 768px) {
+    .header__description-container {
+        inline-size: 50%;
+        justify-self: flex-end;
+    }
+}

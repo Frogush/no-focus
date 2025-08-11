@@ -1,7 +1,7 @@
 :root.theme-dark {
     --background-clr: #000028; /* Базовый цвет фона сайта */
     --background-img: url(../images/cover-image-dark.png); /* Изображение на фоне */
-    --main-clr: #F1B2CE; /* Основной цвет текста страницы */
+    --main-text-clr: #F1B2CE; /* Основной цвет текста страницы */
     --header-decoration-icon-clr: #FF0070; /* Цвет кнопки REC в шапке сайта */
     --decorative-angle-clr: #FF0070; /* Цвет декоративных уголков для шапки и подвала */
     --button-clr: #FF0070; /* Цвет кнопки */
@@ -18,7 +18,7 @@
     :root {
         --background-clr: #000028; /* Базовый цвет фона сайта */
         --background-img: url(../images/cover-image-dark.png); /* Изображение на фоне */
-        --main-clr: #F1B2CE; /* Основной цвет текста страницы */
+        --main-text-clr: #F1B2CE; /* Основной цвет текста страницы */
         --header-decoration-icon-clr: #FF0070; /* Цвет кнопки REC в шапке сайта */
         --decorative-angle-clr: #FF0070; /* Цвет декоративных уголков для шапки и подвала */
         --button-clr: #FF0070; /* Цвет кнопки */

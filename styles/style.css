@@ -343,6 +343,7 @@
 }
 
 .section__gallery-img {
+    display: block;
     block-size: 100%;
     inline-size: 100%;
     object-fit: cover;

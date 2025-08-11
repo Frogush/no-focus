@@ -178,36 +178,36 @@
         <section class="section section__gallery">
             <h2 class="section__gallery-title accent-background-clr accent-bold">А можно в картинках?</h2>
             <div class="section__gallery-content">
-                <img
-                    src="images/sunset.png"
-                    alt="Стилизованное изображение в фиолетовых оттенках, на котором запечатлены закат, горы и море"
-                    class="section__gallery-img section__gallery-img_sunset"
-                    loading="lazy"
-                />
-                <img
-                    src="images/ice-cream.png"
-                    alt="Иллюстрация на фиолетовом фоне, изображающая глубокую тарелку с мороженым. Каждая порция мороженого украшена смайликами, отражающими разнообразные эмоции"
-                    class="section__gallery-img section__gallery-img_ice-cream"
-                    loading="lazy"
-                />
-                <img
-                    src="images/tape.png"
-                    alt="Стилизованное изображение в фиолетово-синих оттенках, на котором изображена аудиокассета и различные компьютерные ярлыки"
-                    class="section__gallery-img section__gallery-img_tape"
-                    loading="lazy"
-                />
-                <img
-                    src="images/books.png"
-                    alt="Иллюстрация в светло-фиолетовой гамме, на которой изображены книги, аккуратно сложенные в стопку, и чашка кофе, размещенная сверху"
-                    class="section__gallery-img section__gallery-img_books"
-                    loading="lazy"
-                />
-                <img
-                    src="images/street.png"
-                    alt="Стилизованный изображение в светло-фиолетовых оттенках, на котором запечатлена улица"
-                    class="section__gallery-img section__gallery-img_street"
-                    loading="lazy"
-                />
+                <picture class="section__gallery-img_sunset">
+                    <source srcset="images/sunset.avif 1x, images/sunset@2.avif 2x" type="image/avif">
+                    <source srcset="images/sunset.webp 1x, images/sunset@2.webp 2x" type="image/webp">
+                    <source srcset="images/sunset.jpg 1x, images/sunset@2.jpg 2x" type="image/jpeg">
+                    <img src="images/sunset.jpg" alt="Стилизованное изображение в фиолетовых оттенках, на котором запечатлены закат, горы и море" class="section__gallery-img" loading="lazy">
+                </picture>
+                <picture class="section__gallery-img_ice-cream">
+                    <source srcset="images/ice-cream.avif 1x, images/ice-cream@2.avif 2x" type="image/avif">
+                    <source srcset="images/ice-cream.webp 1x, images/ice-cream@2.webp 2x" type="image/webp">
+                    <source srcset="images/ice-cream.jpg 1x, images/ice-cream@2.jpg 2x" type="image/jpeg">
+                    <img src="images/ice-cream.jpg" alt="Иллюстрация на фиолетовом фоне, изображающая глубокую тарелку с мороженым. Каждая порция мороженого украшена смайликами, отражающими разнообразные эмоции" class="section__gallery-img" loading="lazy">
+                </picture>
+                <picture class="section__gallery-img_tape">
+                    <source srcset="images/tape.avif 1x, images/tape@2.avif 2x" type="image/avif">
+                    <source srcset="images/tape.webp 1x, images/tape@2.webp 2x" type="image/webp">
+                    <source srcset="images/tape.jpg 1x, images/tape@2.jpg 2x" type="image/jpeg">
+                    <img src="images/tape.jpg" alt="Стилизованное изображение в фиолетово-синих оттенках, на котором изображена аудиокассета и различные компьютерные ярлыки" class="section__gallery-img" loading="lazy">
+                </picture>
+                <picture class="section__gallery-img_books">
+                    <source srcset="images/books.avif 1x, images/books@2.avif 2x" type="image/avif">
+                    <source srcset="images/books.webp 1x, images/books@2.webp 2x" type="image/webp">
+                    <source srcset="images/books.jpg 1x, images/books@2.jpg 2x" type="image/jpeg">
+                    <img src="images/books.jpg" alt="Иллюстрация в светло-фиолетовой гамме, на которой изображены книги, аккуратно сложенные в стопку, и чашка кофе, размещенная сверху" class="section__gallery-img" loading="lazy">
+                </picture>
+                <picture class="section__gallery-img_street">
+                    <source srcset="images/street.avif 1x, images/street@2.avif 2x" type="image/avif">
+                    <source srcset="images/street.webp 1x, images/street@2.webp 2x" type="image/webp">
+                    <source srcset="images/street.jpg 1x, images/street@2.jpg 2x" type="image/jpeg">
+                    <img src="images/street.jpg" alt="Стилизованный изображение в светло-фиолетовых оттенках, на котором запечатлена улица" class="section__gallery-img" loading="lazy">
+                </picture>
             </div>
         </section>
     </main>

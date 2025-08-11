@@ -187,3 +187,21 @@
         justify-self: flex-end;
     }
 }
+
+/* FOOTER */
+
+.footer {
+    position: relative;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    block-size: 100vh;
+    inline-size: 100%;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        padding: 20px;
+    }
+}

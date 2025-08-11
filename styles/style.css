@@ -273,6 +273,56 @@
     gap: 20px;
 }
 
+.section__gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (min-width: 768px) {
+    .section__gallery {
+        gap: 20px;
+    }
+}
+
+.section__gallery-content {
+    display: grid;
+    gap: 10px;
+}
+
+@media (min-width: 768px) {
+    .section__gallery-content {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 20px;
+    }
+}
+
+.section__gallery-img {
+    block-size: 100%;
+    inline-size: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (min-width: 768px) {
+    .section__gallery-img_sunset {
+        grid-column: span 2;
+    }
+
+    .section__gallery-img_ice-cream {
+        grid-row: span 2;
+    }
+
+    .section__gallery-img_tape {
+        grid-row: span 2;
+    }
+
+    .section__gallery-img_street {
+        grid-column: span 2;
+    }
+}
+
 /* FOOTER */
 
 .footer {

@@ -1,7 +1,7 @@
 :root.theme-dark {
     --background-clr: #000028; /* Базовый цвет фона сайта */
     --background-img: url(../images/cover-image-dark.png); /* Изображение на фоне */
-    --main-clr: #F1B2CE; /* Основной цвет текста страницы */
+    --main-text-clr: #F1B2CE; /* Основной цвет текста страницы */
     --header-decoration-icon-clr: #FF0070; /* Цвет кнопки REC в шапке сайта */
     --decorative-angle-clr: #FF0070; /* Цвет декоративных уголков для шапки и подвала */
     --button-clr: #FF0070; /* Цвет кнопки */
@@ -10,7 +10,6 @@
     --accent-boxshadow-clr: #FF0070; /* Цвет тени для заголовка, ссылок */
     --accent-background-clr: #FF0070; /* Цвет заднего фона у отдельных заголовков страницы */
     --accent-section-title-clr: #FF0070; /* Цвет заголовков секций */
-    --accent-article-title-clr: #000028; /* Цвет заголовков статей */
     --accent-gallery-title-clr: #000028; /* Цвет заголовка галереи */
 }
 
@@ -18,7 +17,7 @@
     :root {
         --background-clr: #000028; /* Базовый цвет фона сайта */
         --background-img: url(../images/cover-image-dark.png); /* Изображение на фоне */
-        --main-clr: #F1B2CE; /* Основной цвет текста страницы */
+        --main-text-clr: #F1B2CE; /* Основной цвет текста страницы */
         --header-decoration-icon-clr: #FF0070; /* Цвет кнопки REC в шапке сайта */
         --decorative-angle-clr: #FF0070; /* Цвет декоративных уголков для шапки и подвала */
         --button-clr: #FF0070; /* Цвет кнопки */
@@ -27,7 +26,6 @@
         --accent-boxshadow-clr: #FF0070; /* Цвет тени для заголовка, ссылок */
         --accent-background-clr: #FF0070; /* Цвет заднего фона у отдельных заголовков страницы */
         --accent-section-title-clr: #FF0070; /* Цвет заголовков секций */
-        --accent-article-title-clr: #000028; /* Цвет заголовков статей */
         --accent-gallery-title-clr: #000028; /* Цвет заголовка галереи */
     }
 }

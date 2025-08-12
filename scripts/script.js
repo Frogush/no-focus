@@ -12,8 +12,8 @@
 (function initManifest() {
   const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const manifestPath = isDark
-    ? '/images/site-dark.webmanifest'
-    : '/images/site-light.webmanifest';
+    ? './images/site-dark.webmanifest'
+    : './images/site-light.webmanifest';
 
   const link = document.createElement('link');
   link.rel = 'manifest';

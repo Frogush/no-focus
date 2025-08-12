@@ -6,7 +6,7 @@ A landing page about concentration struggles in the modern world. Built with pur
 
 ## Preview
 
-![Project Preview](./images/preview.jpg)
+![Project Preview](./images/preview.png)
 
 ## 🇬🇧 English Version
 
@@ -35,6 +35,8 @@ The project has been tested with the **Pixel Perfect** utility and has a high pe
 * **Stylelint** — CSS quality check
 * **Prettier** — automatic code formatting
 
+Additionally: **VS Code** with ready-made configuration for Stylelint and Prettier (`.vscode` folder). If you use a different editor, this folder can be deleted.
+
 ## 📁 Project Structure
 
 ```
@@ -56,6 +58,8 @@ The project has been tested with the **Pixel Perfect** utility and has a high pe
 └── (other files)
 
 ````
+
+> 📌 The `.vscode` folder is only needed if the developer uses VS Code — it contains preconfigured settings for Prettier and Stylelint extensions.
 
 ## 🎨 Color Themes
 
@@ -205,6 +209,8 @@ npx prettier . --write
 * **Stylelint** — проверка качества CSS
 * **Prettier** — автоматическое форматирование кода
 
+Дополнительно: **VS Code** с готовой конфигурацией для Stylelint и Prettier (папка `.vscode`). Если вы используете другой редактор, то эту папку можно удалить.
+
 ## 📁 Структура проекта
 
 ```
@@ -224,6 +230,8 @@ npx prettier . --write
 ├── index.html              # Главная страница
 └── (другие файлы)
 ```
+
+> 📌 Папка `.vscode` нужна только если разработчик использует VS Code — там уже настроены параметры для работы расширений Prettier и Stylelint внутри редактора.
 
 ## 🎨 Цветовые темы
 

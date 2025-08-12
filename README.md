@@ -10,6 +10,8 @@ A landing page about concentration struggles in the modern world. Built with pur
 
 ## 🇬🇧 English Version
 
+Scroll down for the Russian version of the project description — ⬇️
+
 ## 📋 Project Description
 
 The project is a single-page website dedicated to the problem of attention span in the modern world. Key features:
